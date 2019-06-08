@@ -46,3 +46,18 @@ Sum up reciprocal rate of each hit. Rank 3 equals 1/3. Rank 1 equals 1. Rank 5 e
 
 Percentage of <user, item> pairs that can be predicted. 
 
+## Diversity
+
+Average similarity (1 minus S) between recommendation pairs. High diversity isn't always good. Could just mean you have a lot of different bad recommendations. 
+
+## Novelty
+
+Similar to diversity, not always a good measure. It measure mean popularity rank of recommended users. 
+
+## Churn
+
+How often do recommendations change? If a user sees a recommended item many times and is not interested, perhaps the recommendation should change. However, high churn like diversity is not always a good thing, since you could just constantly change recommendations using random items and have high churn. 
+
+## Online A/B Tests
+
+User behavior is ultimate test of work. Sometimes accuracy measures look good, but the recommendations work awful in the real world. 
